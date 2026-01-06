@@ -81,7 +81,7 @@ uv run streamlit run app.py
 
 The app will open at `http://localhost:8501`
 
-## 📖 Documentation
+## Documentation
 
 ### Supported LLM Providers
 
@@ -125,7 +125,7 @@ Research generates the following files in `src/output/`:
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                  │
 │  ┌──────────────────┐    ┌──────────────────┐                   │
-│  │  🔬 Head of      │    │  📊 Financial    │                   │
+│  │     Head of      │    │     Financial    │                   │
 │  │     Research     │───▶│     Analyst      │                   │
 │  │                  │    │                  │                   │
 │  │  • Web Search    │    │  • Financial     │                   │
@@ -135,7 +135,7 @@ Research generates the following files in `src/output/`:
 │                                   │                              │
 │                                   ▼                              │
 │  ┌──────────────────┐    ┌──────────────────┐                   │
-│  │  📈 Data         │    │  📝 Report       │                   │
+│  │     Data         │    │     Report       │                   │
 │  │     Analyst      │───▶│     Writer       │                   │
 │  │                  │    │                  │                   │
 │  │  • Market Data   │    │  • Report        │                   │
@@ -151,13 +151,13 @@ Research generates the following files in `src/output/`:
 
 ```mermaid
 graph TD
-    A[🔍 Financial Research] --> B[📋 Research Strategy]
-    B --> C[🏢 Company Analysis]
-    C --> D[📊 Financial Data Analysis]
-    D --> E[⚠️ Risk Assessment]
-    E --> F[🌍 Market Analysis]
-    F --> G[📝 Draft Report]
-    G --> H[✅ Final Report]
+    A[Financial Research] --> B[Research Strategy]
+    B --> C[Company Analysis]
+    C --> D[Financial Data Analysis]
+    D --> E[Risk Assessment]
+    E --> F[Market Analysis]
+    F --> G[Draft Report]
+    G --> H[Final Report]
 ```
 
 ### Task Pipeline
