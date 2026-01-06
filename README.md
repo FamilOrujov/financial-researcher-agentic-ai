@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📊 Financial Researcher AI
+# Financial Researcher AI
 
 **AI-Powered Financial Analysis & Research Reports**
 
@@ -19,16 +19,16 @@
 
 </div>
 
-## ✨ Features
+## Features
 
-- 🤖 **Multi-Agent System** — Four specialized AI agents collaborating on research tasks
-- 🔍 **Comprehensive Analysis** — Company overview, financial metrics, risk assessment, market position
-- 🌐 **Multiple LLM Providers** — Support for Ollama (local), OpenAI, Anthropic, and Groq
-- 🎨 **Modern UI** — Beautiful glassmorphism design with Streamlit
-- 📄 **Export Reports** — Download professional research reports in Markdown format
-- ⚡ **Real-time Progress** — Track research progress as agents complete tasks
+- **Multi-Agent System** — Four specialized AI agents collaborating on research tasks
+- **Comprehensive Analysis** — Company overview, financial metrics, risk assessment, market position
+- **Multiple LLM Providers** — Support for Ollama (local), OpenAI, Anthropic, and Groq
+- **Modern UI** — Beautiful glassmorphism design with Streamlit
+- **Export Reports** — Download professional research reports in Markdown format
+- **Real-time Progress** — Track research progress as agents complete tasks
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -115,7 +115,7 @@ Research generates the following files in `src/output/`:
 | `draft_report.md` | Compiled draft of findings |
 | `report.md` | **Final comprehensive research report** |
 
-## 🏗 Architecture
+## Architecture
 
 ### AI Agent Team
 
@@ -173,7 +173,7 @@ graph TD
 | 7 | Draft Report | Data Analyst | Compile findings |
 | 8 | Final Report | Report Writer | Professional formatted report |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Financial-Researcher-AI/
@@ -191,7 +191,7 @@ Financial-Researcher-AI/
 └── README.md
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Agent Configuration (`src/config/agents.yaml`)
 
@@ -216,7 +216,7 @@ Tasks define the workflow and expected outputs. Each task specifies:
 - Expected output format
 - Context dependencies from previous tasks
 
-## 🛠 Development
+## Development
 
 ### Running from CLI
 
@@ -234,7 +234,7 @@ Edit `src/config/agents.yaml` to modify agent roles, goals, or backstories.
 
 Edit `src/config/tasks.yaml` and update `src/crew.py` to add new research tasks.
 
-## 📋 Final Report Structure
+## Final Report Structure
 
 The generated research report includes:
 
